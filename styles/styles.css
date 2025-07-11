@@ -86,3 +86,28 @@
     font-family: 'Inter', sans-serif;
     opacity: 50%;
 }
+.section-5{
+    background-color: white;
+    border-radius: 14px;
+    text-align: center;
+    margin: 137px 140px 93px 140px;
+
+}
+#section-5-title{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 70px;
+}
+#sec-5-paragraph{
+    font-size: 18px;
+    color: black;
+    opacity: 50%;
+}
+.section-5 button{
+    margin-bottom: 20px;
+}
+.sec-5-image{
+    border-radius: 48px;
+    margin-bottom: 71px;
+}
