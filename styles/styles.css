@@ -5,14 +5,12 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 .top-left{
     font-weight: 900;
     font-size: 34px;
     color: #4e47ff;
     font-family: 'Inter', sans-serif;
 }
-
 .top-right{
     font-size: 16px;
     font-weight: 700;
@@ -22,11 +20,38 @@
     border-radius: 10px;
     padding: 12px 36px;
 }
-
 .main-top{
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: space-between;
     margin: 0px 150px 158px 150px;
+}
+.section_1{
+    text-align: center;
+}
+#heading{
+    font-size: 65px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+.section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 116px 0;
+    font-family: 'Raleway', sans-serif;
+    gap: 220px; 
+}
+.sec-2-heading{
+    font-size: 42px;
+    font-weight: 700;
+}
+.sec-2-paragraph{
+    color: #252432;
+    opacity: 50%;
+    font-size: 24px;
+}
+.sec-2-right img {
+    border-radius: 48px;
 }
