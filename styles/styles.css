@@ -142,3 +142,134 @@ body{
     margin: 0;
     padding: 0;
 }
+#feedback-area {
+    margin-top: 130px;
+    padding: 0 20px;
+}
+#feedback-heading {
+    font-size: 42px;
+    font-weight: 700; 
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 45px;
+}
+#card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.review-card {
+    background-color: white;
+    padding: 20;
+    border-radius: 14px;
+    width: 300px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.rating-stars {
+    background: url('../Assets/icon-star.png');
+    height: 24px;
+    width: 120px;
+    background-size: 24px 24px;
+    margin-bottom: 14px;
+}
+.review-title {
+    font-weight: 600;
+    font-size: 22px;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+}
+.review-quote {
+    color: #333;
+    margin: 12px 0 18px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+}
+.user-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.user-img {
+    width: 48px;
+    height: 48px;
+    background-image: url('../Assets/avatar.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 50%;
+}
+.username {
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    color: #757575;
+    padding-bottom: 4px;
+}
+.review-date {
+    font-size: 14px;
+    color: #757575;
+    font-family: 'Inter', sans-serif;
+}
+#contact-section {
+    display: flex;
+    justify-content: center;
+    gap: 115px;
+    margin-top: 92px;
+    font-family: 'Inter', sans-serif;
+}
+
+#contact-left {
+    margin-top: 120px;
+}
+
+#contact-heading {
+    font-size: 97px;
+    font-weight: bolder;
+    line-height: 1.1;
+    margin-top: -8px;
+}
+
+#contact-form .form-group {
+    margin-bottom: 16px;
+}
+
+.form-label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 16px 0 4px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    font-size: 20px;
+    padding: 20px 190px 20px 32px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 4px;
+    box-sizing: border-box;
+}
+
+#contact-form input::placeholder,
+#contact-form textarea::placeholder {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#submit-button {
+    background-color: #4E47FF;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 19px 201px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 19px;
+    cursor: pointer;
+}
