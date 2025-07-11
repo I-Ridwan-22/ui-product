@@ -111,3 +111,34 @@
     border-radius: 48px;
     margin-bottom: 71px;
 }
+.last-section{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+}
+#title{
+    font-size: 100px;
+    color:#4e47ff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+#paragraph{
+    color: #8987a1;
+
+}
+.foot{
+    display: flex;
+    gap: 47px;
+    justify-content: center;
+    background-color: white;
+}
+.last-section a{
+    text-decoration: none;
+    color: #8987a1;
+}
+body{
+    background-color: #f4f2ff;
+    margin: 0;
+    padding: 0;
+}
