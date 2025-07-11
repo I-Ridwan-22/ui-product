@@ -162,7 +162,7 @@ body{
 }
 .review-card {
     background-color: white;
-    padding: 20;
+    padding: 15px;
     border-radius: 14px;
     width: 300px;
     box-shadow: 0 0 5px rgba(0,0,0,0.05);
@@ -222,29 +222,24 @@ body{
     margin-top: 92px;
     font-family: 'Inter', sans-serif;
 }
-
 #contact-left {
     margin-top: 120px;
 }
-
 #contact-heading {
     font-size: 97px;
     font-weight: bolder;
     line-height: 1.1;
     margin-top: -8px;
 }
-
 #contact-form .form-group {
     margin-bottom: 16px;
 }
-
 .form-label {
     display: block;
     font-size: 18px;
     font-weight: bold;
     margin: 16px 0 4px;
 }
-
 #contact-form input,
 #contact-form textarea {
     width: 100%;
@@ -255,13 +250,11 @@ body{
     margin-top: 4px;
     box-sizing: border-box;
 }
-
 #contact-form input::placeholder,
 #contact-form textarea::placeholder {
     font-size: 20px;
     font-weight: 400;
 }
-
 #submit-button {
     background-color: #4E47FF;
     color: white;
