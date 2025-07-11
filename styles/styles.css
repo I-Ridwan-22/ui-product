@@ -1,0 +1,32 @@
+.main{
+    background-image: url(../Assets/Hero-bg.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.top-left{
+    font-weight: 900;
+    font-size: 34px;
+    color: #4e47ff;
+    font-family: 'Inter', sans-serif;
+}
+
+.top-right{
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: #4e47ff;
+    border-style: none;
+    border-radius: 10px;
+    padding: 12px 36px;
+}
+
+.main-top{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px 158px 150px;
+}
